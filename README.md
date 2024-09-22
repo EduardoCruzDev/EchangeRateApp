@@ -2,12 +2,15 @@
 
 V.1.0
 
-<h2>Reglas del Ejecicio</h2>
+<h2>Sobre la Aplicacion</h2>
 <ul>
-<li>El sistema permite realizar 06 tipos de cambio predeterminados</li>
+<li>El sistema permite realizar 06 tipos de cambio predeterminados en tiempo real</li>
 <li>Opcionalmente puedes ingresar el simbolo del par de monedas que quieras intercambiar</li>
 
 </ul>
+
+![demo-exchange](https://github.com/user-attachments/assets/7ed64afd-ee83-4bdf-a67a-be652394e7ee)
+
 
 <h2>Sobre el codigo</h2>
 <p>El codigo busca mostrar dominio de java </p>
