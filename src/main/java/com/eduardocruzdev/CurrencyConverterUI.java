@@ -52,13 +52,13 @@ public class CurrencyConverterUI extends JFrame {
         // Configurar el ComboBox de moneda 'De'
         JLabel fromLabel = new JLabel("De:");
         gbc.gridx = 0;
-        gbc.gridy = 2;
+        gbc.gridy = 1;
         gbc.anchor = GridBagConstraints.WEST;
         mainPanel.add(fromLabel, gbc);
 
         fromCurrency = new JComboBox<>(new String[]{"USD", "ARS", "BRL", "COP"});
         gbc.gridx = 1;
-        gbc.gridy = 2;
+        gbc.gridy = 1;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.weightx = 1;  // Hacer que el JComboBox se expanda horizontalmente
         mainPanel.add(fromCurrency, gbc);
@@ -66,14 +66,14 @@ public class CurrencyConverterUI extends JFrame {
         // Configurar el ComboBox de moneda 'A'
         JLabel toLabel = new JLabel("A:");
         gbc.gridx = 0;
-        gbc.gridy = 1;
+        gbc.gridy = 2;
         gbc.fill = GridBagConstraints.NONE;
         gbc.weightx = 0;
         mainPanel.add(toLabel, gbc);
 
         toCurrency = new JComboBox<>(new String[]{"ARS", "USD", "BRL", "COP"});
         gbc.gridx = 1;
-        gbc.gridy = 1;
+        gbc.gridy = 2;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.weightx = 1;  // Hacer que el JComboBox se expanda horizontalmente
         mainPanel.add(toCurrency, gbc);
